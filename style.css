@@ -14,6 +14,11 @@ body {
 header {
   padding: 0 20px
 }
+
+h1, h2, h3 {
+  margin: 0;
+}
+
 .max-width-wrapper {
   margin: 0 auto;
   max-width: 600px;
@@ -23,6 +28,10 @@ header {
   padding-top: 50px;
   padding-bottom: 40px;
   max-width: 250px;
+}
+
+.title {
+  padding-bottom: 20px;
 }
 
 strong {
@@ -35,7 +44,6 @@ strong {
   width: 380px;
   max-width: 100%;
   border-bottom: solid 4px hsl(45deg, 100%, 40%);
-  margin: 0px;
   margin-left:-32px; 
 }
 
